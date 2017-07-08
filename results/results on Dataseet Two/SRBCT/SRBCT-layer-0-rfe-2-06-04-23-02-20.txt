@@ -1,0 +1,254 @@
+/***Generated from SRBCT_v2.0***/
+
+# RFE-2
+# layer:0
+# GaussianNB() 
+# Shuffle processed in 5-Fold 
+
+
+------------ Overall statistics -------------
+
+gene_len		mean_fit		best_fit
+1		0.67		0.686
+2		0.86		0.877
+3		0.961		0.972
+4		0.968		0.987
+5		0.982		1.0
+6		0.986		1.0
+7		0.991		1.0
+8		0.99		1.0
+9		0.995		1.0
+10		0.996		1.0
+11		0.995		1.0
+12		0.996		1.0
+13		0.997		1.0
+14		0.997		1.0
+15		0.996		1.0
+16		0.997		1.0
+17		0.998		1.0
+18		0.998		1.0
+19		0.997		1.0
+20		0.997		1.0
+21		0.997		1.0
+22		0.997		1.0
+23		0.996		1.0
+24		0.997		1.0
+25		0.997		1.0
+26		0.996		1.0
+27		0.997		1.0
+28		0.996		1.0
+29		0.996		1.0
+31		0.996		1.0
+33		0.995		1.0
+35		0.995		1.0
+37		0.993		1.0
+39		0.993		1.0
+41		0.993		1.0
+43		0.992		1.0
+45		0.99		1.0
+47		0.988		1.0
+49		0.982		1.0
+52		0.977		1.0
+55		0.975		1.0
+58		0.972		1.0
+61		0.968		1.0
+64		0.966		0.994
+67		0.961		0.989
+70		0.951		0.994
+
+
+----------- Overall best individuals -----------
+
+[acc : 1.0
+index : 1.0
+gene_len : 5
+ft_rg : [1953, 741, 1386, 1002, 245]
+clf : GaussianNB(priors=None)
+metrics_train : [1.0, 1.0]
+metrics_test : [1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 5
+ft_rg : [1953, 741, 1002, 1386, 245]
+clf : GaussianNB(priors=None)
+metrics_train : [1.0, 1.0]
+metrics_test : [1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 5
+ft_rg : [1953, 741, 1386, 1002, 245]
+clf : GaussianNB(priors=None)
+metrics_train : [1.0, 1.0]
+metrics_test : [1.0, 1.0]]
+[acc : 0.987
+index : 0.987
+gene_len : 4
+ft_rg : [2049, 1002, 1707, 741]
+clf : GaussianNB(priors=None)
+metrics_train : [0.98799999999999999, 0.97499999999999998]
+metrics_test : [0.98499999999999999, 0.98599999999999999]]
+[acc : 0.985
+index : 0.985
+gene_len : 4
+ft_rg : [2049, 1002, 1707, 741]
+clf : GaussianNB(priors=None)
+metrics_train : [0.98899999999999999, 0.98299999999999998]
+metrics_test : [0.98199999999999998, 0.97999999999999998]]
+[acc : 0.994
+index : 0.994
+gene_len : 5
+ft_rg : [1953, 741, 1002, 1707, 187]
+clf : GaussianNB(priors=None)
+metrics_train : [0.98899999999999999, 0.98299999999999998]
+metrics_test : [1.0, 1.0]]
+[acc : 0.994
+index : 0.994
+gene_len : 5
+ft_rg : [1953, 741, 1002, 1707, 187]
+clf : GaussianNB(priors=None)
+metrics_train : [0.98899999999999999, 0.98299999999999998]
+metrics_test : [1.0, 1.0]]
+[acc : 0.994
+index : 0.994
+gene_len : 5
+ft_rg : [1953, 741, 1002, 1707, 187]
+clf : GaussianNB(priors=None)
+metrics_train : [0.98899999999999999, 0.98299999999999998]
+metrics_test : [1.0, 1.0]]
+[acc : 0.994
+index : 0.994
+gene_len : 5
+ft_rg : [1953, 741, 1002, 1707, 187]
+clf : GaussianNB(priors=None)
+metrics_train : [0.98899999999999999, 0.98299999999999998]
+metrics_test : [1.0, 1.0]]
+[acc : 0.994
+index : 0.994
+gene_len : 5
+ft_rg : [1953, 741, 1002, 1707, 187]
+clf : GaussianNB(priors=None)
+metrics_train : [0.98899999999999999, 0.98299999999999998]
+metrics_test : [1.0, 1.0]]
+[acc : 0.994
+index : 0.994
+gene_len : 5
+ft_rg : [1953, 741, 1002, 1707, 187]
+clf : GaussianNB(priors=None)
+metrics_train : [0.98899999999999999, 0.98299999999999998]
+metrics_test : [1.0, 1.0]]
+[acc : 0.994
+index : 0.994
+gene_len : 5
+ft_rg : [2049, 741, 1002, 1707, 122]
+clf : GaussianNB(priors=None)
+metrics_train : [0.98899999999999999, 0.98299999999999998]
+metrics_test : [1.0, 1.0]]
+[acc : 0.994
+index : 0.994
+gene_len : 5
+ft_rg : [1953, 741, 1002, 1707, 187]
+clf : GaussianNB(priors=None)
+metrics_train : [0.98899999999999999, 0.98299999999999998]
+metrics_test : [1.0, 1.0]]
+[acc : 0.994
+index : 0.994
+gene_len : 5
+ft_rg : [1953, 741, 1002, 1707, 187]
+clf : GaussianNB(priors=None)
+metrics_train : [0.98899999999999999, 0.98299999999999998]
+metrics_test : [1.0, 1.0]]
+[acc : 0.994
+index : 0.994
+gene_len : 5
+ft_rg : [1953, 741, 1002, 1707, 187]
+clf : GaussianNB(priors=None)
+metrics_train : [0.98899999999999999, 0.98299999999999998]
+metrics_test : [1.0, 1.0]]
+[acc : 0.994
+index : 0.994
+gene_len : 5
+ft_rg : [1953, 741, 1002, 1707, 187]
+clf : GaussianNB(priors=None)
+metrics_train : [0.98899999999999999, 0.98299999999999998]
+metrics_test : [1.0, 1.0]]
+[acc : 0.994
+index : 0.994
+gene_len : 5
+ft_rg : [741, 1707, 1002, 187, 1953]
+clf : GaussianNB(priors=None)
+metrics_train : [0.98899999999999999, 0.98299999999999998]
+metrics_test : [1.0, 1.0]]
+[acc : 0.994
+index : 0.994
+gene_len : 5
+ft_rg : [1953, 741, 1002, 1707, 187]
+clf : GaussianNB(priors=None)
+metrics_train : [0.98899999999999999, 0.98299999999999998]
+metrics_test : [1.0, 1.0]]
+[acc : 0.994
+index : 0.994
+gene_len : 5
+ft_rg : [2049, 741, 1707, 1002, 122]
+clf : GaussianNB(priors=None)
+metrics_train : [0.98899999999999999, 0.98299999999999998]
+metrics_test : [1.0, 1.0]]
+[acc : 0.994
+index : 0.994
+gene_len : 5
+ft_rg : [1953, 741, 1002, 1707, 187]
+clf : GaussianNB(priors=None)
+metrics_train : [0.98899999999999999, 0.98299999999999998]
+metrics_test : [1.0, 1.0]]
+[acc : 0.994
+index : 0.994
+gene_len : 5
+ft_rg : [1953, 741, 1002, 1707, 187]
+clf : GaussianNB(priors=None)
+metrics_train : [0.98899999999999999, 0.98299999999999998]
+metrics_test : [1.0, 1.0]]
+[acc : 0.994
+index : 0.994
+gene_len : 5
+ft_rg : [1953, 741, 1002, 1707, 187]
+clf : GaussianNB(priors=None)
+metrics_train : [0.98899999999999999, 0.98299999999999998]
+metrics_test : [1.0, 1.0]]
+[acc : 0.994
+index : 0.994
+gene_len : 5
+ft_rg : [1953, 741, 1002, 1707, 187]
+clf : GaussianNB(priors=None)
+metrics_train : [0.98899999999999999, 0.98299999999999998]
+metrics_test : [1.0, 1.0]]
+[acc : 0.994
+index : 0.994
+gene_len : 5
+ft_rg : [1953, 741, 1002, 1707, 187]
+clf : GaussianNB(priors=None)
+metrics_train : [0.98899999999999999, 0.98299999999999998]
+metrics_test : [1.0, 1.0]]
+[acc : 0.994
+index : 0.994
+gene_len : 5
+ft_rg : [741, 1002, 1953, 1707, 187]
+clf : GaussianNB(priors=None)
+metrics_train : [0.98899999999999999, 0.98299999999999998]
+metrics_test : [1.0, 1.0]]
+
+
+----------- Overall best features -----------
+
+votes		cur_pos		feature_name
+25		741		812105.0
+25		1002		796258.0
+22		1707		43733.0
+21		1953		814260.0
+18		187		435953.0
+4		2049		295985.0
+3		1386		740604.0
+3		245		377461.0
+2		122		236282.0
+[812105.0, 796258.0, 43733.0, 814260.0, 435953.0]
+
+
+------------- The end---------------

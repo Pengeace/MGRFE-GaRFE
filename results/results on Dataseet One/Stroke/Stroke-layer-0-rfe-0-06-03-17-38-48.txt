@@ -1,0 +1,241 @@
+/***Generated from Stroke_v2.0***/
+
+# RFE-0
+# layer:0
+# GaussianNB() 
+# Shuffle processed in 5-Fold 
+
+
+------------ Overall statistics -------------
+
+gene_len		mean_fit		best_fit
+1		0.778		0.825
+2		0.891		0.925
+3		0.943		1.0
+4		0.939		1.0
+5		0.956		1.0
+6		0.969		1.0
+7		0.982		1.0
+8		0.987		1.0
+9		0.984		1.0
+10		0.988		1.0
+11		0.985		1.0
+12		0.989		1.0
+13		0.99		1.0
+14		0.993		1.0
+15		0.992		1.0
+16		0.993		1.0
+17		0.994		1.0
+18		0.993		1.0
+19		0.994		1.0
+20		0.993		1.0
+21		0.993		1.0
+22		0.993		1.0
+23		0.993		1.0
+24		0.994		1.0
+25		0.994		1.0
+26		0.996		1.0
+27		0.994		1.0
+28		0.992		1.0
+29		0.994		1.0
+30		0.993		1.0
+32		0.993		1.0
+34		0.993		1.0
+36		0.994		1.0
+38		0.994		1.0
+40		0.995		1.0
+42		0.993		1.0
+44		0.995		1.0
+46		0.994		1.0
+48		0.993		1.0
+50		0.995		1.0
+52		0.992		1.0
+54		0.991		1.0
+56		0.992		1.0
+58		0.992		1.0
+60		0.991		1.0
+62		0.993		1.0
+64		0.993		1.0
+66		0.992		1.0
+68		0.992		1.0
+70		0.988		1.0
+72		0.982		1.0
+74		0.972		1.0
+76		0.963		1.0
+78		0.951		1.0
+80		0.927		0.975
+
+
+----------- Overall best individuals -----------
+
+[acc : 1.0
+index : 1.0
+gene_len : 3
+ft_rg : [1, 2, 563]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 3
+ft_rg : [1, 2, 563]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 3
+ft_rg : [1, 2, 563]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 4
+ft_rg : [563, 43, 165, 1]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 4
+ft_rg : [1, 2, 43, 38]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 4
+ft_rg : [841, 1, 43, 38]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 4
+ft_rg : [1, 563, 165, 43]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 4
+ft_rg : [1, 563, 165, 43]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 4
+ft_rg : [1, 563, 165, 43]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 4
+ft_rg : [1, 43, 165, 563]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 4
+ft_rg : [1, 43, 165, 563]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 4
+ft_rg : [1, 43, 165, 563]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 4
+ft_rg : [1, 43, 165, 563]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 4
+ft_rg : [43, 49, 165, 1]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 4
+ft_rg : [1, 2, 43, 38]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 4
+ft_rg : [1, 563, 165, 43]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 4
+ft_rg : [1, 43, 165, 563]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 4
+ft_rg : [165, 38, 1, 563]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 4
+ft_rg : [1, 43, 165, 563]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 5
+ft_rg : [1, 38, 43, 563, 791]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 5
+ft_rg : [1, 165, 43, 77, 563]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 5
+ft_rg : [1, 38, 39, 43, 563]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 5
+ft_rg : [1, 485, 165, 39, 43]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 5
+ft_rg : [1, 38, 39, 43, 563]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 5
+ft_rg : [1, 38, 39, 43, 563]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+
+
+----------- Overall best features -----------
+
+votes		cur_pos		feature_name
+25		1		209170_s_at
+21		43		214518_at
+20		563		1566821_at
+15		165		240404_at
+8		38		232880_at
+5		2		1562586_at
+4		39		211174_s_at
+1		485		208077_at
+1		841		244155_x_at
+1		77		1559685_at
+1		49		218340_s_at
+1		791		200017_at
+['209170_s_at', '214518_at', '1566821_at', '240404_at', '232880_at', '1562586_at']
+
+
+------------- The end---------------
