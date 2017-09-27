@@ -1,6 +1,6 @@
 ## About the demo
 
-The demo folder contains some scripts to work as an example showing how to use the existing codes to deal with your micro-array gene expression dataset and obtain the target gene combination with excellent cancer phenotype classification ability.
+The *Demo* folder contains some scripts to work as an example showing how to use the existing codes to deal with your micro-array gene expression dataset and obtain the target gene combination with excellent cancer phenotype classification ability.
 
 The file *individual.py* contains the Individual class of GA individual and file *population.py* is about the Popolation class which implements the GA. *dataset.txt* is an example gene expression dataset for test and *main.py* is the main script for applying the methodology on a specified dataset.
 To run the main sript, the python runtime environment and required python packages should be installed and some information about the dataset file is also required. 
