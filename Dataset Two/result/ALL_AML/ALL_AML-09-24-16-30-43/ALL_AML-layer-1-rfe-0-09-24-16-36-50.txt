@@ -1,0 +1,239 @@
+/***Generated from ALL_AML_v2.0***/
+
+# RFE-0
+# layer:1
+# GaussianNB() 
+# Shuffle processed in 5-Fold 
+
+Time cost of this GaRFE: 93.60564470291138 seconds
+
+------------ Overall statistics -------------
+
+gene_len		mean_fit		best_fit
+1		0.934		0.945
+2		0.974		0.987
+3		0.989		1.0
+4		0.994		1.0
+5		0.996		1.0
+6		0.998		1.0
+7		0.998		1.0
+8		0.999		1.0
+9		0.999		1.0
+10		0.999		1.0
+11		0.999		1.0
+12		1.0		1.0
+13		1.0		1.0
+14		1.0		1.0
+15		1.0		1.0
+16		1.0		1.0
+17		1.0		1.0
+18		1.0		1.0
+19		1.0		1.0
+21		1.0		1.0
+23		1.0		1.0
+25		1.0		1.0
+
+
+----------- Overall best individuals -----------
+
+[acc : 1.0
+index : 1.0
+gene_len : 3
+ft_rg : [1, 66, 17]
+clf : GaussianNB(priors=None)
+metrics_train : [1.0, 1.0, 1.0, 1.0, 1.0]
+metrics_test : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 3
+ft_rg : [1, 66, 6]
+clf : GaussianNB(priors=None)
+metrics_train : [1.0, 1.0, 1.0, 1.0, 1.0]
+metrics_test : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 3
+ft_rg : [835, 3, 78]
+clf : GaussianNB(priors=None)
+metrics_train : [1.0, 1.0, 1.0, 1.0, 1.0]
+metrics_test : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 3
+ft_rg : [1, 66, 10]
+clf : GaussianNB(priors=None)
+metrics_train : [1.0, 1.0, 1.0, 1.0, 1.0]
+metrics_test : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 3
+ft_rg : [10, 3, 862]
+clf : GaussianNB(priors=None)
+metrics_train : [1.0, 1.0, 1.0, 1.0, 1.0]
+metrics_test : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 3
+ft_rg : [3, 862, 967]
+clf : GaussianNB(priors=None)
+metrics_train : [1.0, 1.0, 1.0, 1.0, 1.0]
+metrics_test : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 3
+ft_rg : [1, 10, 66]
+clf : GaussianNB(priors=None)
+metrics_train : [1.0, 1.0, 1.0, 1.0, 1.0]
+metrics_test : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 3
+ft_rg : [1, 66, 17]
+clf : GaussianNB(priors=None)
+metrics_train : [1.0, 1.0, 1.0, 1.0, 1.0]
+metrics_test : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 3
+ft_rg : [1, 10, 66]
+clf : GaussianNB(priors=None)
+metrics_train : [1.0, 1.0, 1.0, 1.0, 1.0]
+metrics_test : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 3
+ft_rg : [17, 66, 1]
+clf : GaussianNB(priors=None)
+metrics_train : [1.0, 1.0, 1.0, 1.0, 1.0]
+metrics_test : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 4
+ft_rg : [1, 66, 44, 61]
+clf : GaussianNB(priors=None)
+metrics_train : [1.0, 1.0, 1.0, 1.0, 1.0]
+metrics_test : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 4
+ft_rg : [1, 3, 862, 967]
+clf : GaussianNB(priors=None)
+metrics_train : [1.0, 1.0, 1.0, 1.0, 1.0]
+metrics_test : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 4
+ft_rg : [905, 3, 862, 6]
+clf : GaussianNB(priors=None)
+metrics_train : [1.0, 1.0, 1.0, 1.0, 1.0]
+metrics_test : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 4
+ft_rg : [1, 66, 17, 78]
+clf : GaussianNB(priors=None)
+metrics_train : [1.0, 1.0, 1.0, 1.0, 1.0]
+metrics_test : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 4
+ft_rg : [46, 78, 3, 6]
+clf : GaussianNB(priors=None)
+metrics_train : [1.0, 1.0, 1.0, 1.0, 1.0]
+metrics_test : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 4
+ft_rg : [1, 3, 862, 967]
+clf : GaussianNB(priors=None)
+metrics_train : [1.0, 1.0, 1.0, 1.0, 1.0]
+metrics_test : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 4
+ft_rg : [1, 66, 44, 862]
+clf : GaussianNB(priors=None)
+metrics_train : [1.0, 1.0, 1.0, 1.0, 1.0]
+metrics_test : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 4
+ft_rg : [10, 66, 3, 862]
+clf : GaussianNB(priors=None)
+metrics_train : [1.0, 1.0, 1.0, 1.0, 1.0]
+metrics_test : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 4
+ft_rg : [1, 66, 46, 862]
+clf : GaussianNB(priors=None)
+metrics_train : [1.0, 1.0, 1.0, 1.0, 1.0]
+metrics_test : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 4
+ft_rg : [10, 17, 66, 862]
+clf : GaussianNB(priors=None)
+metrics_train : [1.0, 1.0, 1.0, 1.0, 1.0]
+metrics_test : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 5
+ft_rg : [66, 835, 3, 6, 862]
+clf : GaussianNB(priors=None)
+metrics_train : [1.0, 1.0, 1.0, 1.0, 1.0]
+metrics_test : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 5
+ft_rg : [4, 10, 46, 243, 862]
+clf : GaussianNB(priors=None)
+metrics_train : [1.0, 1.0, 1.0, 1.0, 1.0]
+metrics_test : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 5
+ft_rg : [1, 3, 967, 905, 10]
+clf : GaussianNB(priors=None)
+metrics_train : [1.0, 1.0, 1.0, 1.0, 1.0]
+metrics_test : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 5
+ft_rg : [3, 4, 905, 15, 862]
+clf : GaussianNB(priors=None)
+metrics_train : [1.0, 1.0, 1.0, 1.0, 1.0]
+metrics_test : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 5
+ft_rg : [1, 3, 967, 905, 10]
+clf : GaussianNB(priors=None)
+metrics_train : [1.0, 1.0, 1.0, 1.0, 1.0]
+metrics_test : [1.0, 1.0, 1.0, 1.0, 1.0]]
+
+
+----------- Overall best features -----------
+
+votes		cur_pos		feature_name
+15		1		M27891_at
+14		66		M31166_at
+12		3		M23197_at
+12		862		D42043_at
+9		10		J05243_at
+5		967		M30703_s_at
+5		17		HG1612-HT1612_at
+4		6		M31523_at
+4		905		L07633_at
+3		78		U82759_at
+3		46		U70063_at
+2		835		S50223_at
+2		4		X95735_at
+2		44		U57721_at
+1		15		M92287_at
+1		243		L43821_at
+1		61		X51521_at
+['M27891_at', 'M31166_at', 'M23197_at', 'D42043_at', 'J05243_at', 'M30703_s_at', 'HG1612-HT1612_at']
+
+
+------------- The end---------------

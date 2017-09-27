@@ -1,0 +1,730 @@
+/***Generated from layer-2***/
+Total time cost of this MGRFE: 652.5786156654358 seconds
+Time cost in preprocessing: 2.979120969772339 seconds
+
+
+----------- Overall best individuals -----------
+
+[acc : 1.0
+index : 1.0
+gene_len : 2
+ft_rg : [0, 276]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 2
+ft_rg : [0, 276]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 0.992307692308
+index : 0.992307692308
+gene_len : 2
+ft_rg : [3, 318]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 0.98461538461538467, 0.99230769230769234, 0.99230769230769234, 0.9851640199545102]]
+[acc : 0.992307692308
+index : 0.992307692308
+gene_len : 2
+ft_rg : [426, 3]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 0.98461538461538467, 0.99230769230769234, 0.99230769230769234, 0.9851640199545102]]
+[acc : 0.992307692308
+index : 0.992307692308
+gene_len : 2
+ft_rg : [3, 318]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 0.98461538461538467, 0.99230769230769234, 0.99230769230769234, 0.9851640199545102]]
+[acc : 0.992307692308
+index : 0.992307692308
+gene_len : 2
+ft_rg : [426, 3]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 0.98461538461538467, 0.99230769230769234, 0.99230769230769234, 0.9851640199545102]]
+[acc : 0.992307692308
+index : 0.992307692308
+gene_len : 2
+ft_rg : [426, 3]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 0.98461538461538467, 0.99230769230769234, 0.99230769230769234, 0.9851640199545102]]
+[acc : 0.992307692308
+index : 0.992307692308
+gene_len : 2
+ft_rg : [3, 318]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 0.98461538461538467, 0.99230769230769234, 0.99230769230769234, 0.9851640199545102]]
+[acc : 0.992307692308
+index : 0.992307692308
+gene_len : 2
+ft_rg : [426, 3]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 0.98461538461538467, 0.99230769230769234, 0.99230769230769234, 0.9851640199545102]]
+[acc : 0.992307692308
+index : 0.992307692308
+gene_len : 2
+ft_rg : [3, 318]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 0.98461538461538467, 0.99230769230769234, 0.99230769230769234, 0.9851640199545102]]
+[acc : 0.992307692308
+index : 0.992307692308
+gene_len : 2
+ft_rg : [426, 3]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 0.98461538461538467, 0.99230769230769234, 0.99230769230769234, 0.9851640199545102]]
+[acc : 0.992307692308
+index : 0.992307692308
+gene_len : 2
+ft_rg : [426, 3]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 0.98461538461538467, 0.99230769230769234, 0.99230769230769234, 0.9851640199545102]]
+[acc : 0.992307692308
+index : 0.992307692308
+gene_len : 2
+ft_rg : [0, 126]
+clf : GaussianNB(priors=None)
+metrics : [0.98461538461538467, 1.0, 0.99230769230769234, 0.99230769230769234, 0.9851640199545102]]
+[acc : 0.992307692308
+index : 0.992307692308
+gene_len : 2
+ft_rg : [0, 126]
+clf : GaussianNB(priors=None)
+metrics : [0.98461538461538467, 1.0, 0.99230769230769234, 0.99230769230769234, 0.9851640199545102]]
+[acc : 0.992307692308
+index : 0.992307692308
+gene_len : 2
+ft_rg : [0, 126]
+clf : GaussianNB(priors=None)
+metrics : [0.98461538461538467, 1.0, 0.99230769230769234, 0.99230769230769234, 0.9851640199545102]]
+[acc : 0.992307692308
+index : 0.992307692308
+gene_len : 2
+ft_rg : [0, 126]
+clf : GaussianNB(priors=None)
+metrics : [0.98461538461538467, 1.0, 0.99230769230769234, 0.99230769230769234, 0.9851640199545102]]
+[acc : 0.992307692308
+index : 0.992307692308
+gene_len : 2
+ft_rg : [0, 126]
+clf : GaussianNB(priors=None)
+metrics : [0.98461538461538467, 1.0, 0.99230769230769234, 0.99230769230769234, 0.9851640199545102]]
+[acc : 0.992307692308
+index : 0.992307692308
+gene_len : 2
+ft_rg : [0, 126]
+clf : GaussianNB(priors=None)
+metrics : [0.98461538461538467, 1.0, 0.99230769230769234, 0.99230769230769234, 0.9851640199545102]]
+[acc : 0.992307692308
+index : 0.992307692308
+gene_len : 2
+ft_rg : [0, 126]
+clf : GaussianNB(priors=None)
+metrics : [0.98461538461538467, 1.0, 0.99230769230769234, 0.99230769230769234, 0.9851640199545102]]
+[acc : 0.992307692308
+index : 0.992307692308
+gene_len : 2
+ft_rg : [0, 126]
+clf : GaussianNB(priors=None)
+metrics : [0.98461538461538467, 1.0, 0.99230769230769234, 0.99230769230769234, 0.9851640199545102]]
+[acc : 0.992307692308
+index : 0.992307692308
+gene_len : 2
+ft_rg : [0, 126]
+clf : GaussianNB(priors=None)
+metrics : [0.98461538461538467, 1.0, 0.99230769230769234, 0.99230769230769234, 0.9851640199545102]]
+[acc : 0.992307692308
+index : 0.992307692308
+gene_len : 2
+ft_rg : [0, 126]
+clf : GaussianNB(priors=None)
+metrics : [0.98461538461538467, 1.0, 0.99230769230769234, 0.99230769230769234, 0.9851640199545102]]
+[acc : 0.992307692308
+index : 0.992307692308
+gene_len : 2
+ft_rg : [178, 37]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 0.98461538461538467, 0.99230769230769234, 0.99230769230769234, 0.9851640199545102]]
+[acc : 0.992307692308
+index : 0.992307692308
+gene_len : 2
+ft_rg : [0, 276]
+clf : GaussianNB(priors=None)
+metrics : [0.98461538461538467, 1.0, 0.99230769230769234, 0.99230769230769234, 0.9851640199545102]]
+[acc : 0.992307692308
+index : 0.992307692308
+gene_len : 2
+ft_rg : [0, 276]
+clf : GaussianNB(priors=None)
+metrics : [0.98461538461538467, 1.0, 0.99230769230769234, 0.99230769230769234, 0.9851640199545102]]
+[acc : 0.992307692308
+index : 0.992307692308
+gene_len : 2
+ft_rg : [0, 276]
+clf : GaussianNB(priors=None)
+metrics : [0.98461538461538467, 1.0, 0.99230769230769234, 0.99230769230769234, 0.9851640199545102]]
+[acc : 0.992307692308
+index : 0.992307692308
+gene_len : 2
+ft_rg : [0, 276]
+clf : GaussianNB(priors=None)
+metrics : [0.98461538461538467, 1.0, 0.99230769230769234, 0.99230769230769234, 0.9851640199545102]]
+[acc : 0.992307692308
+index : 0.992307692308
+gene_len : 2
+ft_rg : [178, 37]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 0.98461538461538467, 0.99230769230769234, 0.99230769230769234, 0.9851640199545102]]
+[acc : 0.992307692308
+index : 0.992307692308
+gene_len : 2
+ft_rg : [178, 37]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 0.98461538461538467, 0.99230769230769234, 0.99230769230769234, 0.9851640199545102]]
+[acc : 0.992307692308
+index : 0.992307692308
+gene_len : 2
+ft_rg : [207, 276]
+clf : GaussianNB(priors=None)
+metrics : [0.98461538461538467, 1.0, 0.99230769230769234, 0.99230769230769234, 0.9851640199545102]]
+[acc : 0.992307692308
+index : 0.992307692308
+gene_len : 2
+ft_rg : [178, 37]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 0.98461538461538467, 0.99230769230769234, 0.99230769230769234, 0.9851640199545102]]
+[acc : 0.992307692308
+index : 0.992307692308
+gene_len : 2
+ft_rg : [0, 276]
+clf : GaussianNB(priors=None)
+metrics : [0.98461538461538467, 1.0, 0.99230769230769234, 0.99230769230769234, 0.9851640199545102]]
+[acc : 0.992307692308
+index : 0.992307692308
+gene_len : 2
+ft_rg : [0, 276]
+clf : GaussianNB(priors=None)
+metrics : [0.98461538461538467, 1.0, 0.99230769230769234, 0.99230769230769234, 0.9851640199545102]]
+[acc : 0.992307692308
+index : 0.992307692308
+gene_len : 2
+ft_rg : [0, 276]
+clf : GaussianNB(priors=None)
+metrics : [0.98461538461538467, 1.0, 0.99230769230769234, 0.99230769230769234, 0.9851640199545102]]
+[acc : 0.992307692308
+index : 0.992307692308
+gene_len : 2
+ft_rg : [0, 276]
+clf : GaussianNB(priors=None)
+metrics : [0.98461538461538467, 1.0, 0.99230769230769234, 0.99230769230769234, 0.9851640199545102]]
+[acc : 0.992307692308
+index : 0.992307692308
+gene_len : 2
+ft_rg : [0, 401]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 0.98461538461538467, 0.99230769230769234, 0.99230769230769234, 0.9851640199545102]]
+[acc : 0.992307692308
+index : 0.992307692308
+gene_len : 2
+ft_rg : [37, 173]
+clf : GaussianNB(priors=None)
+metrics : [0.98461538461538467, 1.0, 0.99230769230769234, 0.99230769230769234, 0.9851640199545102]]
+[acc : 0.992307692308
+index : 0.992307692308
+gene_len : 2
+ft_rg : [0, 276]
+clf : GaussianNB(priors=None)
+metrics : [0.98461538461538467, 1.0, 0.99230769230769234, 0.99230769230769234, 0.9851640199545102]]
+[acc : 0.992307692308
+index : 0.992307692308
+gene_len : 2
+ft_rg : [0, 276]
+clf : GaussianNB(priors=None)
+metrics : [0.98461538461538467, 1.0, 0.99230769230769234, 0.99230769230769234, 0.9851640199545102]]
+[acc : 0.992307692308
+index : 0.992307692308
+gene_len : 2
+ft_rg : [0, 276]
+clf : GaussianNB(priors=None)
+metrics : [0.98461538461538467, 1.0, 0.99230769230769234, 0.99230769230769234, 0.9851640199545102]]
+[acc : 0.992307692308
+index : 0.992307692308
+gene_len : 2
+ft_rg : [0, 276]
+clf : GaussianNB(priors=None)
+metrics : [0.98461538461538467, 1.0, 0.99230769230769234, 0.99230769230769234, 0.9851640199545102]]
+[acc : 0.992307692308
+index : 0.992307692308
+gene_len : 2
+ft_rg : [178, 37]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 0.98461538461538467, 0.99230769230769234, 0.99230769230769234, 0.9851640199545102]]
+[acc : 0.992307692308
+index : 0.992307692308
+gene_len : 2
+ft_rg : [0, 276]
+clf : GaussianNB(priors=None)
+metrics : [0.98461538461538467, 1.0, 0.99230769230769234, 0.99230769230769234, 0.9851640199545102]]
+[acc : 0.992307692308
+index : 0.992307692308
+gene_len : 2
+ft_rg : [0, 276]
+clf : GaussianNB(priors=None)
+metrics : [0.98461538461538467, 1.0, 0.99230769230769234, 0.99230769230769234, 0.9851640199545102]]
+[acc : 0.992307692308
+index : 0.992307692308
+gene_len : 2
+ft_rg : [0, 276]
+clf : GaussianNB(priors=None)
+metrics : [0.98461538461538467, 1.0, 0.99230769230769234, 0.99230769230769234, 0.9851640199545102]]
+[acc : 0.992307692308
+index : 0.992307692308
+gene_len : 2
+ft_rg : [0, 276]
+clf : GaussianNB(priors=None)
+metrics : [0.98461538461538467, 1.0, 0.99230769230769234, 0.99230769230769234, 0.9851640199545102]]
+[acc : 0.992307692308
+index : 0.992307692308
+gene_len : 2
+ft_rg : [178, 37]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 0.98461538461538467, 0.99230769230769234, 0.99230769230769234, 0.9851640199545102]]
+[acc : 0.992307692308
+index : 0.992307692308
+gene_len : 2
+ft_rg : [178, 37]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 0.98461538461538467, 0.99230769230769234, 0.99230769230769234, 0.9851640199545102]]
+[acc : 0.992307692308
+index : 0.992307692308
+gene_len : 2
+ft_rg : [207, 276]
+clf : GaussianNB(priors=None)
+metrics : [0.98461538461538467, 1.0, 0.99230769230769234, 0.99230769230769234, 0.9851640199545102]]
+[acc : 0.992307692308
+index : 0.992307692308
+gene_len : 2
+ft_rg : [178, 37]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 0.98461538461538467, 0.99230769230769234, 0.99230769230769234, 0.9851640199545102]]
+[acc : 0.992307692308
+index : 0.992307692308
+gene_len : 2
+ft_rg : [0, 276]
+clf : GaussianNB(priors=None)
+metrics : [0.98461538461538467, 1.0, 0.99230769230769234, 0.99230769230769234, 0.9851640199545102]]
+[acc : 0.992307692308
+index : 0.992307692308
+gene_len : 2
+ft_rg : [0, 276]
+clf : GaussianNB(priors=None)
+metrics : [0.98461538461538467, 1.0, 0.99230769230769234, 0.99230769230769234, 0.9851640199545102]]
+[acc : 0.992307692308
+index : 0.992307692308
+gene_len : 2
+ft_rg : [0, 276]
+clf : GaussianNB(priors=None)
+metrics : [0.98461538461538467, 1.0, 0.99230769230769234, 0.99230769230769234, 0.9851640199545102]]
+[acc : 0.992307692308
+index : 0.992307692308
+gene_len : 2
+ft_rg : [0, 276]
+clf : GaussianNB(priors=None)
+metrics : [0.98461538461538467, 1.0, 0.99230769230769234, 0.99230769230769234, 0.9851640199545102]]
+[acc : 0.992307692308
+index : 0.992307692308
+gene_len : 2
+ft_rg : [0, 401]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 0.98461538461538467, 0.99230769230769234, 0.99230769230769234, 0.9851640199545102]]
+[acc : 0.992307692308
+index : 0.992307692308
+gene_len : 2
+ft_rg : [37, 173]
+clf : GaussianNB(priors=None)
+metrics : [0.98461538461538467, 1.0, 0.99230769230769234, 0.99230769230769234, 0.9851640199545102]]
+[acc : 0.992307692308
+index : 0.992307692308
+gene_len : 2
+ft_rg : [0, 276]
+clf : GaussianNB(priors=None)
+metrics : [0.98461538461538467, 1.0, 0.99230769230769234, 0.99230769230769234, 0.9851640199545102]]
+[acc : 0.992307692308
+index : 0.992307692308
+gene_len : 2
+ft_rg : [0, 276]
+clf : GaussianNB(priors=None)
+metrics : [0.98461538461538467, 1.0, 0.99230769230769234, 0.99230769230769234, 0.9851640199545102]]
+[acc : 0.992307692308
+index : 0.992307692308
+gene_len : 2
+ft_rg : [0, 276]
+clf : GaussianNB(priors=None)
+metrics : [0.98461538461538467, 1.0, 0.99230769230769234, 0.99230769230769234, 0.9851640199545102]]
+[acc : 0.992307692308
+index : 0.992307692308
+gene_len : 2
+ft_rg : [0, 276]
+clf : GaussianNB(priors=None)
+metrics : [0.98461538461538467, 1.0, 0.99230769230769234, 0.99230769230769234, 0.9851640199545102]]
+[acc : 0.991666666667
+index : 0.991666666667
+gene_len : 2
+ft_rg : [53, 37]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 0.98333333333333317, 0.99166666666666681, 0.99166666666666659, 0.98397324220156013]]
+[acc : 0.991666666667
+index : 0.991666666667
+gene_len : 2
+ft_rg : [53, 37]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 0.98333333333333317, 0.99166666666666681, 0.99166666666666659, 0.98397324220156013]]
+[acc : 1.0
+index : 1.0
+gene_len : 3
+ft_rg : [217, 276, 37]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 3
+ft_rg : [234, 12, 39]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 3
+ft_rg : [217, 53, 39]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 3
+ft_rg : [217, 53, 37]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 3
+ft_rg : [401, 146, 37]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 3
+ft_rg : [497, 37, 53]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 3
+ft_rg : [217, 53, 37]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 3
+ft_rg : [12, 53, 39]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 3
+ft_rg : [217, 53, 37]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 3
+ft_rg : [146, 12, 734]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 3
+ft_rg : [426, 3, 742]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 3
+ft_rg : [657, 331, 37]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 3
+ft_rg : [426, 37, 318]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 3
+ft_rg : [426, 3, 37]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 3
+ft_rg : [426, 3, 318]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 3
+ft_rg : [426, 3, 37]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 3
+ft_rg : [426, 3, 37]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 3
+ft_rg : [242, 37, 207]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 3
+ft_rg : [60, 37, 742]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 3
+ft_rg : [426, 3, 37]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 3
+ft_rg : [0, 410, 126]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 3
+ft_rg : [0, 410, 126]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 3
+ft_rg : [0, 401, 53]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 3
+ft_rg : [0, 401, 126]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 3
+ft_rg : [0, 540, 126]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 3
+ft_rg : [0, 401, 173]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 3
+ft_rg : [0, 401, 126]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 3
+ft_rg : [0, 401, 173]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 3
+ft_rg : [0, 401, 126]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 3
+ft_rg : [0, 410, 126]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 3
+ft_rg : [0, 276, 207]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 3
+ft_rg : [0, 276, 207]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 3
+ft_rg : [0, 276, 207]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 3
+ft_rg : [0, 276, 207]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 3
+ft_rg : [0, 178, 276]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 3
+ft_rg : [0, 178, 276]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 3
+ft_rg : [0, 276, 207]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 3
+ft_rg : [0, 276, 207]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 3
+ft_rg : [0, 276, 207]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 3
+ft_rg : [0, 276, 207]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 3
+ft_rg : [401, 0, 146]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 3
+ft_rg : [0, 401, 53]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 3
+ft_rg : [0, 426, 276]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 3
+ft_rg : [0, 426, 173]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 3
+ft_rg : [0, 426, 53]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 3
+ft_rg : [0, 401, 426]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 3
+ft_rg : [0, 426, 276]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 3
+ft_rg : [0, 401, 276]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 3
+ft_rg : [0, 426, 53]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 3
+ft_rg : [0, 426, 53]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 3
+ft_rg : [0, 276, 207]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 3
+ft_rg : [0, 276, 207]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 3
+ft_rg : [0, 276, 207]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 3
+ft_rg : [0, 276, 207]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 3
+ft_rg : [0, 178, 276]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 3
+ft_rg : [0, 178, 276]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 3
+ft_rg : [0, 276, 207]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 3
+ft_rg : [0, 276, 207]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+
+
+------------- The end---------------

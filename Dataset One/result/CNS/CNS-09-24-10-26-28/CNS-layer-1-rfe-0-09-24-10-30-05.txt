@@ -1,0 +1,185 @@
+/***Generated from CNS_v2.0***/
+
+# RFE-0
+# layer:1
+# GaussianNB() 
+# Shuffle processed in 5-Fold 
+
+Time cost of this GaRFE: 70.19697570800781 seconds
+
+------------ Overall statistics -------------
+
+gene_len		mean_fit		best_fit
+1		0.673		0.709
+2		0.779		0.814
+3		0.867		0.905
+4		0.9		0.937
+5		0.911		0.96
+6		0.931		0.98
+7		0.944		0.986
+8		0.952		0.985
+9		0.967		1.0
+10		0.98		1.0
+11		0.983		1.0
+12		0.983		1.0
+13		0.985		1.0
+14		0.99		1.0
+15		0.982		1.0
+16		0.988		1.0
+17		0.99		1.0
+18		0.989		1.0
+19		0.992		1.0
+20		0.992		1.0
+22		0.984		1.0
+24		0.991		1.0
+
+
+----------- Overall best individuals -----------
+
+[acc : 1.0
+index : 1.0
+gene_len : 9
+ft_rg : [129, 38, 353, 8, 78, 271, 272, 725, 52]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 9
+ft_rg : [129, 130, 353, 38, 8, 78, 271, 117, 725]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 9
+ft_rg : [725, 78, 130, 129, 117, 8, 52, 2, 272]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 9
+ft_rg : [272, 8, 78, 52, 130, 353, 658, 2, 129]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 9
+ft_rg : [129, 2, 130, 8, 78, 271, 272, 658, 117]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 9
+ft_rg : [129, 130, 2, 8, 78, 271, 272, 658, 52]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 9
+ft_rg : [129, 2, 130, 38, 8, 78, 271, 52, 725]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 9
+ft_rg : [129, 130, 2, 8, 78, 272, 52, 117, 725]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 9
+ft_rg : [725, 78, 130, 129, 117, 8, 52, 2, 272]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 9
+ft_rg : [129, 353, 130, 38, 8, 78, 271, 272, 117]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 10
+ft_rg : [129, 2, 130, 8, 78, 271, 52, 725, 117, 60]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 10
+ft_rg : [272, 78, 30, 130, 52, 2, 8, 129, 725, 60]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 10
+ft_rg : [129, 2, 130, 8, 78, 272, 52, 117, 725, 60]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 10
+ft_rg : [8, 271, 725, 52, 130, 117, 460, 78, 38, 129]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 10
+ft_rg : [129, 130, 2, 8, 78, 271, 272, 52, 117, 725]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 10
+ft_rg : [271, 272, 353, 130, 78, 52, 658, 38, 8, 129]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 10
+ft_rg : [129, 272, 2, 8, 725, 271, 130, 117, 60, 78]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 10
+ft_rg : [130, 38, 271, 117, 460, 353, 129, 8, 725, 78]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 10
+ft_rg : [117, 78, 353, 8, 129, 38, 460, 725, 271, 130]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 10
+ft_rg : [78, 117, 658, 129, 8, 52, 130, 2, 725, 272]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+
+
+----------- Overall best features -----------
+
+votes		cur_pos		feature_name
+20		129		X64624_s_at
+20		8		S76475_at
+20		78		M55593_at
+19		130		X93511_s_at
+15		725		M74091_at
+14		272		S78693_f_at
+14		52		M96739_at
+14		117		U43747_s_at
+13		2		D29956_at
+13		271		K01911_at
+8		38		S71824_at
+7		353		Z26653_at
+5		658		U64998_at
+4		60		M25667_at
+3		460		S77393_at
+1		30		D86977_at
+
+The features voted more than or equal to 5 times are:
+['X64624_s_at', 'S76475_at', 'M55593_at', 'X93511_s_at', 'M74091_at', 'S78693_f_at', 'M96739_at', 'U43747_s_at', 'D29956_at', 'K01911_at', 'S71824_at', 'Z26653_at', 'U64998_at']
+
+
+------------- The end---------------

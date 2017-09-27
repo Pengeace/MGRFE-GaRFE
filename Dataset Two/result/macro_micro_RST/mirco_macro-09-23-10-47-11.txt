@@ -1,0 +1,15 @@
+
+# Micro/macro calculation of SRBCT
+Micro average precision recall f1: array([ 1.,  1.,  1.])
+Macro average precision recall f1: array([ 1.,  1.,  1.])
+Acc: 1.0
+
+# Micro/macro calculation of ALL_AML
+Micro average precision recall f1: array([ 1.,  1.,  1.])
+Macro average precision recall f1: array([ 1.,  1.,  1.])
+Acc: 1.0
+
+# Micro/macro calculation of MLL
+Micro average precision recall f1: array([ 1.,  1.,  1.])
+Macro average precision recall f1: array([ 1.,  1.,  1.])
+Acc: 1.0

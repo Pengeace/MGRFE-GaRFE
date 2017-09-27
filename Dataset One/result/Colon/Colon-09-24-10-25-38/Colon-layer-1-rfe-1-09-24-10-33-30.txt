@@ -1,0 +1,190 @@
+/***Generated from Colon_v2.0***/
+
+# RFE-1
+# layer:1
+# GaussianNB() 
+# Shuffle processed in 5-Fold 
+
+Time cost of this GaRFE: 89.64682412147522 seconds
+
+------------ Overall statistics -------------
+
+gene_len		mean_fit		best_fit
+1		0.824		0.852
+2		0.877		0.918
+3		0.909		0.983
+4		0.93		0.985
+5		0.946		0.986
+6		0.954		1.0
+7		0.965		1.0
+8		0.967		1.0
+9		0.968		0.986
+10		0.969		1.0
+11		0.971		1.0
+12		0.972		1.0
+13		0.967		0.986
+14		0.969		0.986
+15		0.961		0.986
+16		0.96		0.986
+17		0.957		0.986
+18		0.958		0.986
+19		0.959		0.985
+20		0.96		0.986
+21		0.955		0.985
+22		0.954		0.986
+23		0.956		0.985
+24		0.957		0.986
+25		0.959		0.986
+26		0.957		0.986
+27		0.957		0.986
+28		0.958		0.985
+29		0.956		0.986
+30		0.954		0.986
+
+
+----------- Overall best individuals -----------
+
+[acc : 1.0
+index : 1.0
+gene_len : 6
+ft_rg : [175, 214, 627, 14, 97, 118]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 6
+ft_rg : [1, 475, 269, 14, 175, 155]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 6
+ft_rg : [1, 677, 269, 14, 175, 155]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 6
+ft_rg : [1, 269, 175, 627, 118, 155]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 6
+ft_rg : [1, 475, 269, 14, 175, 155]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 6
+ft_rg : [1, 475, 269, 14, 175, 155]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 6
+ft_rg : [1, 677, 269, 14, 175, 155]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 6
+ft_rg : [1, 475, 269, 14, 175, 155]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 7
+ft_rg : [97, 14, 175, 627, 118, 214, 475]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 7
+ft_rg : [97, 1, 14, 175, 627, 118, 475]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 7
+ft_rg : [97, 1, 14, 175, 627, 118, 475]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 7
+ft_rg : [97, 1, 14, 175, 627, 118, 475]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 7
+ft_rg : [97, 14, 175, 627, 118, 214, 475]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 7
+ft_rg : [97, 1, 14, 175, 627, 118, 475]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 7
+ft_rg : [97, 14, 175, 627, 118, 214, 475]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 7
+ft_rg : [97, 14, 175, 627, 118, 214, 475]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 7
+ft_rg : [97, 14, 175, 627, 118, 214, 475]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 8
+ft_rg : [1, 516, 175, 214, 677, 627, 118, 155]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 8
+ft_rg : [1, 516, 155, 175, 627, 118, 214, 475]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 8
+ft_rg : [97, 1, 14, 175, 118, 214, 475, 671]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+
+
+----------- Overall best features -----------
+
+votes		cur_pos		feature_name
+20		175		Hsa.94
+17		14		Hsa.36952
+15		475		Hsa.401
+14		1		Hsa.36689
+14		118		Hsa.2196
+13		627		Hsa.17426
+11		97		Hsa.1387
+9		155		Hsa.1423
+9		214		Hsa.4252
+7		269		Hsa.2867
+3		677		Hsa.1659
+2		516		Hsa.2808
+1		671		Hsa.1939
+
+The features voted more than or equal to 5 times are:
+['Hsa.94', 'Hsa.36952', 'Hsa.401', 'Hsa.36689', 'Hsa.2196', 'Hsa.17426', 'Hsa.1387', 'Hsa.1423', 'Hsa.4252', 'Hsa.2867']
+
+
+------------- The end---------------

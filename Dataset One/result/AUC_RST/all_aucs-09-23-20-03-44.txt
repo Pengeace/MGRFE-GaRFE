@@ -1,0 +1,88 @@
+
+# AUC calculation of DLBCL
+AUC in K-fold: [1.0, 1.0, 1.0, 1.0, 1.0]
+Mean: 1.00, std: 0.00
+
+
+# AUC calculation of Prostate
+AUC in K-fold: [0.92727272727272725, 0.96363636363636362, 1.0, 1.0, 1.0]
+Mean: 0.98, std: 0.03
+
+
+# AUC calculation of Colon
+AUC in K-fold: [0.875, 1.0, 1.0, 1.0, 1.0]
+Mean: 0.97, std: 0.05
+
+
+# AUC calculation of Leukaemia
+AUC in K-fold: [1.0, 1.0, 1.0, 1.0, 1.0]
+Mean: 1.00, std: 0.00
+
+
+# AUC calculation of Myeloma
+AUC in K-fold: [0.9285714285714286, 0.94897959183673464, 1.0, 0.93650793650793651, 0.94179894179894186]
+Mean: 0.95, std: 0.03
+
+
+# AUC calculation of ALL1
+AUC in K-fold: [1.0, 1.0, 1.0, 1.0, 1.0]
+Mean: 1.00, std: 0.00
+
+
+# AUC calculation of ALL2
+AUC in K-fold: [0.96703296703296704, 0.93406593406593408, 0.92307692307692313, 1.0, 0.86813186813186816]
+Mean: 0.94, std: 0.04
+
+
+# AUC calculation of ALL3
+AUC in K-fold: [0.94285714285714295, 0.88, 0.90000000000000002, 0.96000000000000008, 0.96249999999999991]
+Mean: 0.93, std: 0.03
+
+
+# AUC calculation of ALL4
+AUC in K-fold: [1.0, 1.0, 1.0, 0.93846153846153846, 1.0]
+Mean: 0.99, std: 0.02
+
+
+# AUC calculation of CNS
+AUC in K-fold: [1.0, 1.0, 0.90625, 1.0, 1.0]
+Mean: 0.98, std: 0.04
+
+
+# AUC calculation of Lymphoma
+AUC in K-fold: [1.0, 1.0, 1.0, 1.0, 1.0]
+Mean: 1.00, std: 0.00
+
+
+# AUC calculation of Adenoma
+AUC in K-fold: [1.0, 1.0, 1.0, 1.0, 1.0]
+Mean: 1.00, std: 0.00
+
+
+# AUC calculation of Gastric
+AUC in K-fold: [1.0, 1.0, 1.0, 1.0, 1.0]
+Mean: 1.00, std: 0.00
+
+
+# AUC calculation of Gastric1
+AUC in K-fold: [1.0, 1.0, 1.0, 0.95408163265306123, 0.99489795918367352]
+Mean: 0.99, std: 0.02
+
+
+# AUC calculation of Gastric2
+AUC in K-fold: [1.0, 1.0, 1.0, 1.0, 1.0]
+Mean: 1.00, std: 0.00
+
+
+# AUC calculation of T1D
+AUC in K-fold: [0.77777777777777768, 1.0, 1.0, 0.93939393939393934, 1.0]
+Mean: 0.94, std: 0.09
+
+
+# AUC calculation of Stroke
+AUC in K-fold: [1.0, 1.0, 1.0, 1.0, 1.0]
+Mean: 1.00, std: 0.00
+
+
+# AUC of all datasets:
+[1.0, 0.97818181818181815, 0.97499999999999998, 1.0, 0.95117157974300814, 1.0, 0.93846153846153835, 0.92907142857142855, 0.98769230769230776, 0.98124999999999996, 1.0, 1.0, 1.0, 0.98979591836734693, 1.0, 0.9434343434343434, 1.0]

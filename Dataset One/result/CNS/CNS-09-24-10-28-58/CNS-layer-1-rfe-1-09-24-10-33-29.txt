@@ -1,0 +1,181 @@
+/***Generated from CNS_v2.0***/
+
+# RFE-1
+# layer:1
+# GaussianNB() 
+# Shuffle processed in 5-Fold 
+
+Time cost of this GaRFE: 76.99781942367554 seconds
+
+------------ Overall statistics -------------
+
+gene_len		mean_fit		best_fit
+1		0.714		0.76
+2		0.792		0.829
+3		0.856		0.892
+4		0.897		0.918
+5		0.914		0.965
+6		0.936		0.982
+7		0.941		0.982
+8		0.955		1.0
+9		0.966		1.0
+10		0.977		1.0
+11		0.984		1.0
+12		0.984		1.0
+13		0.984		1.0
+14		0.985		1.0
+15		0.987		1.0
+16		0.987		1.0
+17		0.985		1.0
+18		0.985		1.0
+19		0.989		1.0
+20		0.983		1.0
+22		0.981		1.0
+
+
+----------- Overall best individuals -----------
+
+[acc : 1.0
+index : 1.0
+gene_len : 8
+ft_rg : [160, 353, 129, 8, 107, 271, 20, 27]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 9
+ft_rg : [271, 20, 353, 160, 986, 2, 107, 129, 8]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 9
+ft_rg : [160, 353, 2, 129, 8, 107, 271, 20, 986]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 9
+ft_rg : [160, 129, 2, 353, 8, 107, 271, 20, 117]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 9
+ft_rg : [160, 353, 129, 8, 107, 271, 20, 986, 27]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 9
+ft_rg : [160, 353, 129, 8, 107, 271, 20, 986, 27]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 9
+ft_rg : [160, 129, 353, 2, 8, 107, 271, 20, 986]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 9
+ft_rg : [271, 2, 986, 8, 129, 107, 353, 20, 160]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 9
+ft_rg : [160, 353, 2, 129, 8, 107, 271, 20, 986]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 9
+ft_rg : [8, 20, 160, 129, 117, 986, 107, 271, 2]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 9
+ft_rg : [160, 129, 353, 8, 107, 271, 20, 27, 351]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 10
+ft_rg : [160, 353, 129, 2, 8, 107, 271, 20, 986, 27]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 10
+ft_rg : [160, 129, 769, 353, 2, 8, 107, 271, 20, 986]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 10
+ft_rg : [160, 129, 2, 769, 353, 8, 107, 271, 20, 986]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 10
+ft_rg : [160, 129, 353, 2, 8, 107, 271, 20, 986, 27]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 10
+ft_rg : [160, 353, 2, 129, 8, 107, 271, 20, 986, 27]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 10
+ft_rg : [160, 129, 2, 353, 8, 107, 271, 20, 986, 27]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 10
+ft_rg : [160, 353, 129, 769, 8, 107, 271, 20, 117, 27]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 10
+ft_rg : [160, 353, 129, 2, 8, 107, 20, 117, 986, 27]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+[acc : 1.0
+index : 1.0
+gene_len : 10
+ft_rg : [160, 129, 2, 353, 8, 107, 271, 20, 986, 27]
+clf : GaussianNB(priors=None)
+metrics : [1.0, 1.0, 1.0, 1.0, 1.0]]
+
+
+----------- Overall best features -----------
+
+votes		cur_pos		feature_name
+20		160		AFFX-CreX-3_st
+20		129		X64624_s_at
+20		8		S76475_at
+20		107		M64347_at
+20		20		S66541_s_at
+19		353		Z26653_at
+19		271		K01911_at
+16		986		U54804_at
+15		2		D29956_at
+11		27		D17793_at
+4		117		U43747_s_at
+3		769		X53296_s_at
+1		351		X04412_at
+
+The features voted more than or equal to 5 times are:
+['AFFX-CreX-3_st', 'X64624_s_at', 'S76475_at', 'M64347_at', 'S66541_s_at', 'Z26653_at', 'K01911_at', 'U54804_at', 'D29956_at', 'D17793_at']
+
+
+------------- The end---------------
