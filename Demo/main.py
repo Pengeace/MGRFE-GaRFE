@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-This script is a demo to show how to deal with a specified dataset by using MGRFE.
+This script is an example to show how to deal with a specified dataset by using MGRFE.
 
 1. The Individual class is the individual in genetic algorithm (GA).
 2. The Population class and its subclass APop implements GA,
@@ -15,6 +15,7 @@ import os
 import random
 import time
 import sys
+import bisect
 from functools import reduce
 
 import matplotlib.pyplot as plt
@@ -28,7 +29,7 @@ from sklearn.model_selection import StratifiedKFold
 from sklearn.naive_bayes import GaussianNB
 
 # import two classes of Individual and Population from local path
-sys.path.append("D:\\codes\\python\\MGRFE\\Dataset One\\code")
+sys.path.append("D:\\codes\\python\\MGRFE\\Dataset One\\code\\xxx")	 # 1. replace the path with the folder path containing the file individual.py and population.py in your PC
 from individual import Individual
 from population import Population
 
@@ -283,19 +284,19 @@ class RFE():
 # =========================================
 # parameters setting
 # =========================================
-dataset_name = "XXX"									# 1. fill in the dataset name here
+dataset_name = "XXX"									# 2. fill in the dataset name here
 cur_version = dataset_name + "_v2.0"
 time_format = "-%m-%d-%H-%M-%S"
 cur_time = time.strftime(time_format, time.localtime()) # record program run time
 start_time = time.time()                                # count program total time cost
-file_path = "D:\\codes\\python\\MGRFE\\Dataset One\\data\\xxx.txt"			# 2.1. this path is where the input dataset is placed, so repace it with the file path in your computer  
-output_path = "D:\\codes\\python\\MGRFE\\Dataset One\\results\\"			# 2.2. this path is where the output files will be placed, so replace it with your specified path 
+file_path = "D:\\codes\\python\\MGRFE\\Dataset One\\data\\xxx.txt"			# 3.1. this path is where the input dataset is placed, so repace it with the file path in your computer  
+output_path = "D:\\codes\\python\\MGRFE\\Dataset One\\results\\"			# 3.2. this path is where the output files will be placed, so replace it with your specified path 
 output_path = output_path + "\\" + dataset_name+cur_time+ "\\"
-pos_name = "xxx"                   		# 3.1. the name of positive samples in the data set file
-neg_name = "xxx"                    	# 3.2. the name of negative samples in the data set file
-ft_index_name = "xxx"      				# 3.3. the index name of the probe ID column
+pos_name = "xxx"                   		# 4.1. the name of positive samples in the data set file
+neg_name = "xxx"                    	# 4.2. the name of negative samples in the data set file
+ft_index_name = "xxx"      				# 4.3. the index name of the probe ID column
 metrics_names = ["Sn", "Sp", "Acc", "Avc", "MCC"]   # the 5 metrics calculated of each GA individual
-is_imbalanced = 0                   	# 4. whether the dataset is imbalanced
+is_imbalanced = 0                   	# 4.4 whether the dataset is imbalanced
 
 
 Total_layer = 2             # layer number
@@ -318,7 +319,7 @@ classes = df.columns
 features = df.index
 pos = list(filter(lambda x: x.find(pos_name) != -1, classes))
 neg = list(filter(lambda x: x.find(neg_name) != -1, classes))
-t_vals, p_vals = stats.ttest_ind(df.ix[:, pos], df.ix[:, neg], axis=1)          # t-test
+t_vals, p_vals = stats.ttest_ind(df.ix[:, pos], df.ix[:, neg], axis=1)          # T-test
 top_fts = sorted(list(zip(features, p_vals)), key=operator.itemgetter(1))
 features = [x[0] for x in top_fts]
 features_positions = dict(zip(features, range(len(features))))
@@ -326,6 +327,17 @@ df = df.ix[:, pos + neg]
 df = df.ix[features, :]
 pos_num = len(pos)
 neg_num = len(neg)
+# for every candidate feature, the p-value from T-test should below 0.05
+p_vals.sort()
+lim = bisect.bisect(p_vals,0.05)
+if(lim>=1000):
+    ft_num_limit = 1000   # the upper limit of preserved features after T-test is 1000
+else:
+    ft_num_limit = lim
+    if(lim>=500):         # the upper limit of preserved features after MIC calculation is 500
+        initial_ft_num = feature_numbers_layer[0] = 500
+    else:
+        initial_ft_num = feature_numbers_layer[0] = lim
 # X, classes * features,
 # with all features ordered basing on pValue generated from the t_test
 # and all POS samples are placed together before the NEG ones
@@ -341,14 +353,18 @@ X = preprocessing.normalize(X)
 if not os.path.exists(output_path):
     os.mkdir(output_path)
 
+
 # MIC calculation
-mine = MINE()
-mic_scores = []
-for i in range(ft_num_limit):
-    mine.compute_score(X[:, i], y)
-    mic_scores.append(mine.mic())
-top_fts_mic = sorted(list(zip(range(ft_num_limit), mic_scores)), key=operator.itemgetter(1), reverse=True)
-top_mic_pos = [x[0] for x in top_fts_mic[0:initial_ft_num]]
+if ft_num_limit>500:    # cut down the feature number to below 500 by MIC calculation
+    mine = MINE()
+    mic_scores = []
+    for i in range(ft_num_limit):
+        mine.compute_score(X[:, i], y)
+        mic_scores.append(mine.mic())
+    top_fts_mic = sorted(list(zip(range(ft_num_limit), mic_scores)), key=operator.itemgetter(1), reverse=True)
+    top_mic_pos = [x[0] for x in top_fts_mic[0:initial_ft_num]]
+else:
+    top_mic_pos = list(range(initial_ft_num))
 
 # preprocessing end, record the time cost
 preprocess_time=time.time()

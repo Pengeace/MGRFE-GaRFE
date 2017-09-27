@@ -2,8 +2,8 @@
 
 The demo folder contains some scripts to work as an example showing how to use the existing codes to deal with your micro-array gene expression dataset and obtain the target gene combination with excellent cancer phenotype classification ability.
 
-The file *individual.py* contains the Individual class of GA individual and file *population.py* is about the Popolation class which implements the GA. *dataset.txt* is an example gene expression dataset for test and *main.py* is the main script for applying the methodology on specified dataset.
-To run the main sript, the python runtime environment and required python packages should be provided and some information about the dataset is required. 
+The file *individual.py* contains the Individual class of GA individual and file *population.py* is about the Popolation class which implements the GA. *dataset.txt* is an example gene expression dataset for test and *main.py* is the main script for applying the methodology on a specified dataset.
+To run the main sript, the python runtime environment and required python packages should be installed and some information about the dataset file is also required. 
 
 ## Prerequisites
 
@@ -22,7 +22,7 @@ To run the main sript, the python runtime environment and required python packag
   * Dataset name. In line 286, fill in the dataset name here.
   * Input and output path.
     - In line 291, put the input path of a specified dataset here, and for example, you can just offer the path of the *dataset.txt* file in your PC.
-    - In line 291, here you should decide the output path where you'd like the output files be placed.
+    - In line 292, here you should decide the output path where you'd like to place the output files.
   * Input file information. 
     - In line 294 and 295, fill in the name of positive sample and negtive sample in the input dataset file respectively. For example, in the *dataset.txt* file the two names are `POS` and `NEG` in the first line of the data.
     - In line 296, fill in the name of the gene or probe column, that is, the first string of the first column. For example, in the *dataset.txt* file it is `gene`.
