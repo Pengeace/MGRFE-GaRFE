@@ -1,8 +1,9 @@
+# MGRFE
 ## About this repository
 
-Here is about "MGRFE: multilayer recursive feature elimination based on embedded genetic algorithm for cancer classification". The detailed information are available at the file *MGRFE.pdf*.
+It is for the paper of "MGRFE: multilayer recursive feature elimination based on embedded genetic algorithm for cancer classification". The detailed information is available at the file *MGRFE.pdf*.
 
-In this repository, you can find all 19 datasets for cancer classification used by MGRFE, our source code and the generated results.
+In this repository, you can find our whole source codes, the generated results and all 19 data sets for cancer classification used by MGRFE.
 
 ## About MGRFE-GaRFE
 
@@ -24,8 +25,8 @@ MGRFE can represent a complementary feature selection algorithm for high-dimensi
   - [scikit_learn](http://scikit-learn.org/stable/)
 2. Currently, you should edit the paths (e.g., the project path `D:\\codes\\python\\MGRFE\\` ) in the scripts based on your settings.
 3. An example showing how to use the existing codes to deal with your own micro-array gene expression data set is available at the *Demo* folder.
-4. Note that thorough comments are added in the scripts to improve readability and may offer you an better understanding about the algorithm and the implementation.
+4. Note that thorough comments have been added in the scripts to improve readability and might offer you a better understanding about the proposed algorithm and its implementation.
 
 ## Help
 
-For any matters, just feel free to contact chengpengeace@gmail.com or start an issue instead.
+For any bugs, implementation doublts or something else, just feel free to contact chengpengeace@gmail.com or start an issue instead.
