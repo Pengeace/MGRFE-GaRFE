@@ -1,4 +1,4 @@
-This folder contains the scripts related to the 17 data sets in Dataset One.
+This folder contains the scripts related to the 17 data sets in the Dataset One.
 - The sub-folder **deal with 17 datasets** contains 17 scripts for dealing with each data set.
 - The file **auc_calcu.py** computes the AUC (area under curve) values under ROC curves by 5-fold CV on the 17 datasets.
 - The file **cmp_rst.py** draws the performance comparison figure about two algorithms of MGRFE and McTwo.
